@@ -43,8 +43,8 @@ class App extends Component {
   render(){
     let items = (
         <div>
-        {this.state.items.map(() => {
-          return <List occ={this.state.items.occ} des={this.state.items.des} deadline={this.state.items.deadline}
+        {this.state.items.map((item) => {
+          return <List occ={item.occ} des={item.des} deadline={item.deadline}
             del={() => {this.delItem(this.state.items.des)}}/>
         })}
         </div>
