@@ -20,15 +20,6 @@ const Item = (props) => {
       </Grid>
     </Grid>
     </div>
-  // <div>
-  //   <p>Description:</p>
-  //   <input name="des" type="text" onChange={props.submit}/>
-  //   <p>Occasion:</p>
-  //   <input name="occ" type="text" onChange={props.submit}/>
-  //   <p>Deadline:</p>
-  //   <input name="deadline" type="text" onChange={props.submit}/>
-  //   <button type="submit" onClick={props.submit}>Submit!</button>
-  // </div>
   )
 }
 
